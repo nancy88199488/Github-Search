@@ -4,8 +4,8 @@ import { GithubFormComponent } from './github-form/github-form.component';
 import { GithubComponent } from './github/github.component';
 
 const routes: Routes = [
-  {path:"github-form",component:GithubFormComponent},
-  {path:"github", component:GithubComponent}
+  {path:"github-form",component: GithubFormComponent},
+  {path:"github", component: GithubComponent}
 ];
 
 @NgModule({
