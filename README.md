@@ -2,26 +2,36 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
-## Development server
+## Author
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Nancy Kemunto
 
-## Code scaffolding
+## Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Its an application where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories
 
-## Build
+# Setup
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Clone the repository from github, https://github.com/nancy88199488/Github-Search.git
+* Use git clone to clone the project
+* Run ng serve from your terminal
 
-## Running unit tests
+## Technologies Used
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* HTML
+* CSS
+* Bootstrap
+* Javascript
+* Typescript
 
-## Running end-to-end tests
+## Live Site
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+view [live]()
 
-## Further help
+# Contacts
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Email:nancykemuntosalome@gmail.com
+
+# License
+
+This project is under the MIT license Copyright (c) 2021. Nancy Kemunto
