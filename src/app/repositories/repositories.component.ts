@@ -2,19 +2,19 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { from } from 'rxjs';
 import { Repo } from '../repo';
-import { UserService } from '../user-service.service';
+import { GithubService } from '../github-service.service';
 import { User } from '../user';
 
 @Component({
   selector: 'app-repositories',
   templateUrl: './repositories.component.html',
-  providers: [UserService],
+  providers: [GithubService],
   styleUrls: ['./repositories.component.css'],
 })
 export class RepositoriesComponent implements OnInit {
   Users!: User;
   Repos: Repo[] = [];
-  constructor(public userHttpService: UserService) {}
+  constructor(public userHttpService: GithubService) {}
 
   ngOnInit() {
     this.searchGit('nancy8819488');
