@@ -1,5 +1,5 @@
-<form>
-    <input type="text" name="user" placeholder="UserName">
+<form (ngSubmit)="submitUserName()"> 
+    <input type="text" name="user"[[ngmodel]]="user" placeholder="UserName">
     <button type="submit"> submit</button>
 
 </form>
