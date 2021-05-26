@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { GithubComponent } from './github/github.component';
 import { GithubFormComponent } from './github-form/github-form.component';
 import { FormsModule } from '@angular/forms';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GithubComponent,
-    GithubFormComponent
+    GithubFormComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
