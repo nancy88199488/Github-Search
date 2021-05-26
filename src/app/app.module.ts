@@ -4,22 +4,20 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GithubComponent } from './github/github.component';
-import { GithubFormComponent } from './github-form/github-form.component';
-import { FormsModule } from '@angular/forms';
+import { UserprofileComponent } from './userprofile/userprofile.component';
+import { RepositoriesComponent }from './repositories/repositories.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GithubComponent,
-    GithubFormComponent,
+    RepositoriesComponent,
+    UserprofileComponent,
     NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
     HttpClientModule
   
   ],

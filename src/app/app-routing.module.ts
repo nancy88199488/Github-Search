@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { GithubFormComponent } from './github-form/github-form.component';
-import { GithubComponent } from './github/github.component';
+import { GithubFormComponent } from './userprofile/userprofile.component';
+import { GithubComponent } from './repositories/repositories.component';
 
 const routes: Routes = [
   {path:"github-form",component: GithubFormComponent},
